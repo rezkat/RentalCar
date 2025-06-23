@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.Core", "CarRental.Core.csproj", "{C81D026B-A6BD-4032-90B7-C7DF8E4741E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBotDemo", "..\CarRental.Bot\TelegramBotDemo.csproj", "{CD76F8C0-B113-450A-90FF-6785D3D6BE6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C81D026B-A6BD-4032-90B7-C7DF8E4741E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81D026B-A6BD-4032-90B7-C7DF8E4741E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81D026B-A6BD-4032-90B7-C7DF8E4741E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81D026B-A6BD-4032-90B7-C7DF8E4741E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD76F8C0-B113-450A-90FF-6785D3D6BE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD76F8C0-B113-450A-90FF-6785D3D6BE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD76F8C0-B113-450A-90FF-6785D3D6BE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD76F8C0-B113-450A-90FF-6785D3D6BE6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

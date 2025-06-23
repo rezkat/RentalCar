@@ -1,0 +1,12 @@
+D:\Rider\CarRental\CarRental.Core\bin\Debug\net8.0\CarRental.Core.deps.json
+D:\Rider\CarRental\CarRental.Core\bin\Debug\net8.0\CarRental.Core.dll
+D:\Rider\CarRental\CarRental.Core\bin\Debug\net8.0\CarRental.Core.pdb
+D:\Rider\CarRental\CarRental.Core\obj\Debug\net8.0\CarRental.Core.csproj.AssemblyReference.cache
+D:\Rider\CarRental\CarRental.Core\obj\Debug\net8.0\CarRental.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rider\CarRental\CarRental.Core\obj\Debug\net8.0\CarRental.Core.AssemblyInfoInputs.cache
+D:\Rider\CarRental\CarRental.Core\obj\Debug\net8.0\CarRental.Core.AssemblyInfo.cs
+D:\Rider\CarRental\CarRental.Core\obj\Debug\net8.0\CarRental.Core.csproj.CoreCompileInputs.cache
+D:\Rider\CarRental\CarRental.Core\obj\Debug\net8.0\CarRental.Core.dll
+D:\Rider\CarRental\CarRental.Core\obj\Debug\net8.0\refint\CarRental.Core.dll
+D:\Rider\CarRental\CarRental.Core\obj\Debug\net8.0\CarRental.Core.pdb
+D:\Rider\CarRental\CarRental.Core\obj\Debug\net8.0\ref\CarRental.Core.dll

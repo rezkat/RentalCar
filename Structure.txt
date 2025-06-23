@@ -1,0 +1,50 @@
+CarRental.sln
+│
+├── CarRental.Core/              # 💡 Бизнес-логика и модели (НЕ зависит ни от чего)
+│   ├── Entities/
+│   │   ├── Car.cs
+│   │   ├── Client.cs
+│   │   ├── Transaction.cs
+│   │   └── TgClient.cs
+│   ├── Interfaces/
+│   │   ├── ICarRepository.cs
+│   │   ├── IClientRepository.cs
+│   │   ├── ITransactionRepository.cs
+│   │   ├── ITgClientRepository.cs
+│   │   └── IDataRepository.cs        # Обобщённый интерфейс
+│   │
+│   ├── Infrastructure/    # Реализация логики доступа к данным
+│   │    ├── Database/
+│   │    │     ├── PostgreSqlConnectionFactory.cs
+│   │    │     └── DapperContext.cs                 # в разработке
+│   │    └── Repositories
+│   │          ├── CarRepository.cs
+│   │          ├── ClientRepository.cs
+│   │          ├── TransactionRepository.cs
+│   │          ├── TgClientRepository.cs
+│   │          └── BaseRepository.cs
+│   │
+│   ├── Services/
+│   │   └── TelegramMessageSender.cs (реализация интерфейса)
+│   │
+├── CarRental.TelegramBot/       # Обработка Telegram-сообщений
+│   ├── Handlers/
+│   │   ├── StartCommandHandler.cs
+│   │   ├── RentCommandHandler.cs
+│   │   └── CommonMessageHandler.cs
+│   ├── Bot/
+│   │   └── BotInitializer.cs
+│   ├── Services/
+│   │   └── TelegramUpdateService.cs
+│   └── Program.cs
+│
+├── CarRental.UI/                # UI (на WinForms)
+│   ├── Forms/ или Views/
+│   │   └── MainForm.cs
+│   ├── ViewModels/
+│   │   └── CarViewModel.cs
+│   └── Program.cs
+│
+└── CarRental.Tests/        # Юнит-тесты
+    ├── Core.Tests/
+    └── Infrastructure.Tests/
