@@ -26,14 +26,12 @@ public partial class CarsForm : Form
     
     private async void AddCarButtonClick(object sender, EventArgs e)
     {
-        // using var form = new CarDetailsForm();
-        // if (form.ShowDialog(this) == DialogResult.OK)
-        // {
-        //     Car newCar = form.ResultCar!;
-        //     await UserApplication.AddCar(newCar);
-        //
-        //     carGridView.DataSource = await UserApplication.GetAllCars();
-        // }
+        // var addForm = new CarAddForm();
+        
+        var addForm = new AddOurOrWhose();
+        addForm.Show();
+        
+        Close();
     }
 
     
@@ -42,7 +40,7 @@ public partial class CarsForm : Form
     {
         var carTableForm = new CarsDeleteForm(await UserApplication.GetAllCars());
         carTableForm.Show();
-        
+
         Close();
     }
     

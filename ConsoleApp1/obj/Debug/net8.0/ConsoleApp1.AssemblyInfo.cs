@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("CarRental.Core")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleApp1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0a945a852003da00679dfd4c060c8ccdcf14920")]
-[assembly: System.Reflection.AssemblyProductAttribute("CarRental.Core")]
-[assembly: System.Reflection.AssemblyTitleAttribute("CarRental.Core")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96ef089632039b1e02674ea130c6f00bbb5bad8e")]
+[assembly: System.Reflection.AssemblyProductAttribute("ConsoleApp1")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ConsoleApp1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
