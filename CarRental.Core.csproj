@@ -11,4 +11,19 @@
       <PackageReference Include="Npgsql" Version="9.0.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="ConsoleApp1\**" />
+      <Compile Remove="UserUI\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="ConsoleApp1\**" />
+      <EmbeddedResource Remove="UserUI\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="ConsoleApp1\**" />
+      <None Remove="UserUI\**" />
+    </ItemGroup>
+
 </Project>

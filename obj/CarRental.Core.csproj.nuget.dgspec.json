@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Rider\\CarRental\\CarRental.Core\\CarRental.Core.csproj": {}
+    "C:\\Users\\pankr\\RiderProjects\\RentalCar\\CarRental.Core.csproj": {}
   },
   "projects": {
-    "D:\\Rider\\CarRental\\CarRental.Core\\CarRental.Core.csproj": {
+    "C:\\Users\\pankr\\RiderProjects\\RentalCar\\CarRental.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Rider\\CarRental\\CarRental.Core\\CarRental.Core.csproj",
+        "projectUniqueName": "C:\\Users\\pankr\\RiderProjects\\RentalCar\\CarRental.Core.csproj",
         "projectName": "CarRental.Core",
-        "projectPath": "D:\\Rider\\CarRental\\CarRental.Core\\CarRental.Core.csproj",
+        "projectPath": "C:\\Users\\pankr\\RiderProjects\\RentalCar\\CarRental.Core.csproj",
         "packagesPath": "C:\\Users\\pankr\\.nuget\\packages\\",
-        "outputPath": "D:\\Rider\\CarRental\\CarRental.Core\\obj\\",
+        "outputPath": "C:\\Users\\pankr\\RiderProjects\\RentalCar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pankr\\AppData\\Roaming\\NuGet\\NuGet.Config"
